@@ -158,30 +158,53 @@
         </div>
     </div>
     </div>
+<div class="row justify-content-center my-5">
+    <form class="form-inline">
+        <select class="custom-select">
+            <option value="https://artert241.github.io">Артём</option>
+            <option value="https://ucmit.github.io">Улан</option>
+            <option value="https://sashapozharin.github.io">Александр</option>
+            <option value="https://formit21.github.io">Степан</option>
+            <option value="https://svetpru.github.io">Светлана</option>
+            <option value="https://vaso1943.github.io">Василий</option>
+            <option value="https://lazh22.github.io">Владимир</option>
+            <option selected value="https://hhamster39.github.io">Альбина</option>
+        </select>
+
+        <button type="button"   class="btn btn-danger" id="btnSelect">Отправить запрос</button>
+    </form>
+</div>
+
+    <div class="modal fade" id="msgBox" data-keyboard="false" data-backdrop="static" tabindex="1" aria-labelledby="msgLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="msgLabel">Сообщение от </h4>
+                </div>
+                <div class="modal-body">
+                    <h1>Дарова</h1>
+                    <p>Ты маслину поймал?</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row justify-content-center"><button class="btn btn-primary" data-toggle="modal" data-target="#msgBox">Вызвать окно</button>
+</div>
 
 
-
-
-    <div class="row justifine-content-center my-5">
-
-        <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" data-html="true" title="
-        ">Нажми на меня!</button>
-
-        <button class="btn btn-primary" data-toggle="popover" data-placement="left" 
-        title="Header"
-        data-content="
-        Paragrah
-        ">Нажми на меня!</button>
+    <div id="answer">
+        <h1>Привет!</h1>
+        <p>Это сообщение!</p> 
     </div>
 
 
 
 
 
-<div class="row justify-content-center">
-    <button class="btn btn-danger" data-toggle="collapse" data-target="txt" aria-expanded="false" aria-controls="txt">Collapse</button>
-
-</div>
 
 
 
@@ -190,21 +213,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!---<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    </script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
@@ -213,5 +225,12 @@
     </script>
     <script src="script.js"></script>
 </body>
+
+
+
+
+
+
+
 
 </html>

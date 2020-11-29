@@ -8,7 +8,12 @@
 }
 
 
-
+#answer{
+    visibility: hidden ;
+    position: absolute;
+    top: 0;
+    user-select: none;
+}
 
 
 
