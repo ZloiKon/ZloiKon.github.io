@@ -1,23 +1,16 @@
-#banner{
+#banner {
     width: 5000px;
 }
 
-.carousel-caption{
+.carousel-caption {
     background-color: rgba(122, 156, 206, 0.527);
     color: red
 }
 
 
-#answer{
-    visibility: hidden ;
+#answer {
+    visibility: hidden;
     position: absolute;
     top: 0;
     user-select: none;
 }
-
-
-
-
-
-
-
